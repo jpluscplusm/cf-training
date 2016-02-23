@@ -1,0 +1,8 @@
+---
+applications:
+- name:
+  instances: 1
+  memory: 60M
+  path: ./stock-frontend
+  env:
+    STOCK_API_URI: FIXME
