@@ -1,0 +1,6 @@
+---
+applications:
+- name: 
+  instances: 1
+  memory: 100M
+  path: ./hello-world
