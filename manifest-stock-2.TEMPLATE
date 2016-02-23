@@ -1,0 +1,10 @@
+---
+applications:
+- name: 
+  host: 
+  instances: 1
+  memory: 60M
+  path: ./hello-world
+  env:
+    FOO: bar
+    STOCK_MAX_INT: 1000
