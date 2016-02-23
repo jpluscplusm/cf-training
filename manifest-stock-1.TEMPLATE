@@ -1,6 +1,9 @@
 ---
 applications:
 - name: 
+  host: 
   instances: 1
-  memory: 100M
+  memory: 60M
   path: ./hello-world
+  env:
+    FOO: bar
